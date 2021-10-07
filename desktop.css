@@ -13,13 +13,18 @@ main{
 
 
 body{
-    background-image: url("/bilder/arnold.jpg");  
+    
+    
+    background: gainsboro;
+    
+    
 }
 
 .Galleribilde{
     display: block;
     grid-area: "galleri";
     z-index: auto;
+    
 }
 
 
