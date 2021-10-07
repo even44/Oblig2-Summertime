@@ -1,11 +1,9 @@
-main{
+.Galleri{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: auto;
-    grid-template-areas: 
-    "intro . .",
-    "galleri galleri galleri",
-    "galleri galleri galleri";
+    
+    
 
     background-color: lightblue;
     
@@ -22,8 +20,8 @@ body{
 
 .Galleribilde{
     display: block;
-    grid-area: "galleri";
-    z-index: auto;
+    
+    
     
 }
 
