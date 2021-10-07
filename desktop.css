@@ -20,7 +20,8 @@ body{
     background-color: lightblue;
     
 }
-.Galleribilde{
+.Galleribilde > figure > img{
+    
     width: 100%;
     
     
