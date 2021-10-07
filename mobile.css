@@ -1,1 +1,24 @@
+.Galleri{
+    display: grid;
+    
+    grid-gap: 0px;
+    
+    grid-template-columns: repeat(auto-fill, minmax(40%,1fr));
 
+    background-color: lightblue;
+
+    grid-auto-rows: 250px,150px;
+    grid-auto-flow: dense;
+    
+}
+.Galleribilde > figure > img{
+    width: 100%;
+}
+
+p {
+    font-size: medium;
+}
+
+h1{
+    font-size: large;
+}
