@@ -27,6 +27,9 @@ body{
     
 }
 
-
+.Galleribilde > img {
+    max-width: 50%;
+}
+   
    
   
