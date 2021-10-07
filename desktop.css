@@ -15,7 +15,7 @@ body{
     
     grid-gap: 0px;
     
-    grid-template-columns: repeat(auto-fill, minmax(40%,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(500px,1fr));
 
     background-color: lightblue;
 
@@ -28,11 +28,11 @@ body{
 }
 
 p {
-    font-size: large;
+    font-size: x-large;
 }
 
 h1{
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 
