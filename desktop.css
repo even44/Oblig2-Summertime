@@ -7,3 +7,9 @@ main{
     "galleri galleri galleri",
     "galleri galleri galleri";
 }
+
+.Galleribilde{
+    display: block;
+    grid-area: "galleri";
+    z-index: auto;
+}
