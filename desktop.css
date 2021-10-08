@@ -2,11 +2,8 @@
 
 
 body{
-    
-    
-    background: gainsboro;
-    
-    
+    background-color: gainsboro;
+    animation: colorchange 60s infinite;
 }
 
 
@@ -35,6 +32,36 @@ h1{
     font-size: xx-large;
 }
 
+@keyframes colorchange {
+    0% {
+      background: #7AD8F5;
+      color: white;
+    }
+    20% {
+      background: #9342A6;
+      color: white;
+    }
+    40% {
+      background: #AA1A13;
+      color: white;
+    }
+    60% {
+      background: #FECF87;
+    }
+    61% {
+      color: #333;
+    }
+    80% {
+      background: #AEE77E;
+    }
+    81% {
+      color: white;
+    }
+    100% {
+      background: #7AD8F5;
+      color: white;
+    }
+  }
 
 
    
