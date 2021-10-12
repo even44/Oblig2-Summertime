@@ -37,19 +37,19 @@ h1{
 
 @keyframes colorchange {
     0% {
-      background: #7AD8F5;
+      background: lightblue;
     }
     20% {
-      background: #9342A6;
+      background: yellow;
     }
     40% {
-      background: #AA1A13;
+      background: orangered;
     }
     60% {
-      background: #FECF87;
+      background: red;
     }
     80% {
-      background: #AEE77E;
+      background: white;
     }
     100% {
       background: #7AD8F5;
