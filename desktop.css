@@ -33,7 +33,7 @@ body{
     padding: 2%;
     background-color: rgb(160, 215, 233);
     border-radius: 1.5%;
-    box-shadow: 8px 8px 5px 1px darkgray;
+    box-shadow: 8px 8px 15px 1px black;
 }
 
 p {
@@ -48,7 +48,7 @@ p {
     border-radius: 1%;
     padding-left: 2%;
     padding-right: 2%;
-    box-shadow: 8px 8px 5px 1px darkgray;
+    box-shadow: 8px 8px 15px 1px black;
 }
 
 h1{
