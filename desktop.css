@@ -32,6 +32,7 @@ body{
     min-height: 50%;
     padding: 2%;
     background-color: lightblue;
+    border-radius: 1.5%;
 }
 
 p {
@@ -43,6 +44,9 @@ p {
     width: 50%;
     margin: auto;
     background-color: lightblue;
+    border-radius: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 h1{
