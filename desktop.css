@@ -40,6 +40,9 @@ p {
 
 .summertime {
     text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: lightblue;
 }
 
 h1{
