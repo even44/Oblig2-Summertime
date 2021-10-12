@@ -1,17 +1,12 @@
 body{
     background-color: white;
     background-color: lightblue;
-    animation: colorchange 60s infinite;
+    animation: colorchange 10s infinite;
 }
 .Galleri{
     display: grid;
-    
     grid-gap: 0px;
-    
     grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
-
-    background-color: lightcoral;
-
     grid-auto-rows: 250px,150px;
     grid-auto-flow: dense;
     
@@ -20,6 +15,19 @@ body{
     width: 100%;
 }
 
+.Galleribilde {
+    margin: auto;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      width: 90%;
+      min-height: 50%;
+      padding: 2%;
+      background-color: rgb(160, 215, 233);
+      border-radius: 1.5%;
+      box-shadow: 8px 8px 15px 1px black;
+  }
+
+
 p {
     font-size: xx-small;
 }
@@ -27,3 +35,34 @@ p {
 h1{
     font-size: large;
 }
+
+.summertime {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(160, 215, 233);
+    border-radius: 1%;
+    box-shadow: 8px 8px 15px 1px black;
+    padding: 0.5px 50px 0.5px 50px
+}
+
+@keyframes colorchange {
+    0% {
+      background: lightblue;
+    }
+    20% {
+      background: yellow;
+    }
+    40% {
+      background: orangered;
+    }
+    60% {
+      background: red;
+    }
+    80% {
+      background: white;
+    }
+    100% {
+      background: lightblue;
+    }
+  }
