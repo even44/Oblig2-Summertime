@@ -49,6 +49,10 @@ h1{
     padding: 0.5px 50px 0.5px 50px
 }
 
+.MakeInline{
+  display: inline-block;
+}
+
 .footer {
   display: block;
 }
