@@ -53,6 +53,9 @@ h1{
   width: 80%;
   margin: auto;
   margin-top: 10%;
+
+.MakeInline {
+  display: inline-block;
 }
 
 .footer {
