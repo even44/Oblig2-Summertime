@@ -49,6 +49,12 @@ h1{
     padding: 0.5px 50px 0.5px 50px
 }
 
+.relfextion-text {
+  width: 80%;
+  margin: auto;
+  margin-top: 10%;
+}
+
 .footer {
   display: block;
 }
