@@ -72,8 +72,18 @@ h1{
     100% {
       background: lightblue;
     }
-  }
+}
 
+.button {
+  background-color: lightblue;
+  padding: 0%;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  padding: 1% 1%;
+  text-decoration: none;
+  display: inline-block;
+}
 
    
    
