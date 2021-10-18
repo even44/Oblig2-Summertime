@@ -11,7 +11,7 @@ body{
     grid-auto-flow: dense;
     
 }
-.Galleribilde > figure > img{
+.Galleribilde > figure > picture > img{
     width: 100%;
 }
 
