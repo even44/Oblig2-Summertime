@@ -52,11 +52,29 @@ h1{
 .relfextion-text {
   width: 80%;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  min-height: 50%;
+  padding: 2%;
+  background-color: rgb(160, 215, 233);
+  border-radius: 1.5%;
+  box-shadow: 8px 8px 15px 1px black;
 }
 
   .MakeInline {
     display: inline-block;
+  }
+
+  .card-wire {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    min-height: 50%;
+    padding: 2%;
+    background-color: rgb(160, 215, 233);
+    border-radius: 1.5%;
+    box-shadow: 8px 8px 15px 1px black;
   }
 
 .footer {
@@ -93,7 +111,6 @@ h1{
   padding: 1% 1%;
   text-decoration: none;
   display: inline-block;
-  box-shadow: 8px 8px 15px 1px black;
 }
 
    
