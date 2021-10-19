@@ -113,6 +113,7 @@ h1{
   display: inline-block;
 }
 
-   
-   
-  
+nav.footer{
+  width: 30%;
+  margin: auto;
+}
