@@ -59,9 +59,7 @@ h1{
     display: inline-block;
   }
 
-.footer {
-  display: block;
-}
+
 
 @keyframes colorchange {
     0% {
@@ -84,17 +82,30 @@ h1{
     }
 }
 
+
+footer{
+
+}
+
+li {
+  display: inline;
+}
+
+.buttons {
+  list-style-type:none;
+  
+}
 .button {
   background-color: lightblue;
-  padding: 0%;
   border-radius: 5px;
   border: none;
   color: black;
-  padding: 1% 1%;
+  padding: 0.5%;
   text-decoration: none;
   display: inline-block;
+  
   box-shadow: 8px 8px 15px 1px black;
-  margin: auto;
+  
 }
 
 
